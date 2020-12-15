@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes move{
+            0%{
+                left: 0%;
+            }
+            50%{
+                left:90%;
+            }
+            100%{
+                left:0%;
+            }
+        } 
+
+        h1{
+            position: relative;
+            animation-name:move;
+            animation-duration:3s;
+            animation-fill-mode: forwards;
+            /* animation-iteration-count: infinite; */
+            animation-iteration-count: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+</body>
+</html>
